@@ -1,50 +1,119 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BIBIN KUNJUMON</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+
 	<nav class="navbar navbar-dark bg-dark fixed-top">
 		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-			<div class="offcanvas-header">
-			  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-			  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			<a class="navbar-brand" href="#">BIBIN KUNJUMON</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+				aria-labelledby="offcanvasDarkNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Visit my Profile</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+						aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">AI Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Experience & Skill</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">My Education</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Git Repo Projects
+							</a>
+							<ul class="dropdown-menu dropdown-menu-dark">
+								<li><a class="dropdown-item" href="#">Repo-1</a></li>
+								<li><a class="dropdown-item" href="#">Repo-2</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Repo-3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="offcanvas-body">
-			  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-				<li class="nav-item">
-				  <a class="nav-link active" aria-current="page" href="#">About Me</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link active" href="#">Link</a>
-				</li>
-				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					Dropdown
-				  </a>
-				  <ul class="dropdown-menu dropdown-menu-dark">
-					<li><a class="dropdown-item" href="#">Action</a></li>
-					<li><a class="dropdown-item" href="#">Another action</a></li>
-					<li>
-					  <hr class="dropdown-divider">
-					</li>
-					<li><a class="dropdown-item" href="#">Something else here</a></li>
-				  </ul>
-				</li>
-			  </ul>
-			</div>
-		  </div>
 		</div>
-	  </nav>
+	</nav>
+	<div id="about-me" class="card text-center">
+		<div class="card-header mt-5 mb-5">
+			About Me
+			<img src="images/bibin.jpg" class="rounded mx-auto d-block" alt="..." style="max-height: 500px; width: auto;">
+		</div>
+		<div class="card-body">
+			<h2 class="card-title mb-5">Let me give you a brief !</h2>
+			<p class="card-text">
+
+			<section>
+				<p>Hello, I'm Mr. Bibin Kunjumon, and I'm thrilled to welcome you to my website. Here's a little insight
+					into who I am and what I'm passionate about.</p>
+				<p>I am an Indian software engineer with a strong background in cutting-edge technologies and a deep
+					commitment to problem-solving. My journey in the world of technology has been an exciting one,
+					driven by an insatiable curiosity and a desire to make a meaningful impact.</p>
+				<p>With a career spanning several years, I've had the privilege of working with dynamic and innovative
+					teams, where I've had the opportunity to contribute to various projects and challenges. My work
+					primarily revolves around the development of AI solutions, software engineering, and full-stack
+					development, and I find immense satisfaction in turning ideas into functional and efficient systems.
+				</p>
+				<p>I believe in continuous learning and growth. The tech landscape is ever-evolving, and I am dedicated
+					to staying at the forefront of these changes. My experience has led me to explore diverse domains,
+					from machine learning and artificial intelligence to web development and cloud computing. I take
+					pride in mastering new tools, frameworks, and programming languages as they emerge.</p>
+				<p>My education at ITMO University in Saint Petersburg, Russia, where I pursued a Master of Science in
+					Robotics and Applied Artificial Intelligence, has further equipped me with the skills and knowledge
+					to solve complex problems in the intersection of robotics and AI. This has given me a unique
+					perspective on the future of technology and its potential to shape our world.</p>
+				<p>As a full-stack developer, I've had the privilege of working on a wide range of projects, from AI
+					chatbots and image generation to building scalable web applications. My ability to bridge the gap
+					between front-end and back-end development has allowed me to create user-friendly, secure, and
+					efficient systems.</p>
+				<p>I also have a strong commitment to the open-source community and have contributed to various projects
+					on GitHub. Open source not only fuels innovation but also encourages collaboration and knowledge
+					sharing, values that are close to my heart.</p>
+				<p>This website serves as a platform to showcase my work, share my insights, and connect with
+					like-minded individuals and organizations. Whether you're here to explore my portfolio, collaborate
+					on exciting projects, or just engage in a tech-related conversation, I'm always eager to connect and
+					learn from others in the field.</p>
+				<p>Thank you for visiting my website, and I look forward to connecting with you. If you have any
+					inquiries, project ideas, or simply want to say hello, please don't hesitate to reach out. Together,
+					we can make a difference in the world of technology.</p>
+			</section>
+			</p>
+		</div>
+		<div class="card-footer text-body-secondary">
+			Updated on October,2023
+		</div>
+	</div>
 </body>
+
 </html>
